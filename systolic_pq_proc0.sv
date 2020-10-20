@@ -10,7 +10,7 @@ module systolic_pq_proc0 #(parameter KW=8, VW=4) (
     output logic irdy,
     input logic ovalid,
     input logic ordy,
-    output logic [KW+VW-1:0] bo, ao,
+    output logic [KW+VW-1:0] bo, ao
     );
 
     // may want to move these to the main module?
